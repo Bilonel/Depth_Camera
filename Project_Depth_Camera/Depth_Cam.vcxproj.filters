@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Filter">
+      <UniqueIdentifier>{6f121426-3587-44f5-bb81-bb3ab311c0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Point/Cloud">
+      <UniqueIdentifier>{0d824822-afd1-4788-a54c-71230b8548af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{157f66f1-1883-4632-8548-1b27db387198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filter">
+      <UniqueIdentifier>{ceabaf9a-488a-483d-a2b0-898c0e9422ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{88638a77-e68b-4653-b0b8-fa9390ff0524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Point/Cloud">
+      <UniqueIdentifier>{88fce4ee-3797-4fb8-8e9f-602ac2860983}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FilterPipe.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudFilter.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudRecorder.cpp">
+      <Filter>Source Files\Point/Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Point/Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloud.cpp">
+      <Filter>Source Files\Point/Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudGenerator.cpp">
+      <Filter>Source Files\Point/Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PassThroughFilter.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudInterface.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="RadiusOutlierFilter.cpp">
+      <Filter>Source Files\Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FilterPipe.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="PassThroughFilter.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="RadiusOutlierFilter.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudFilter.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthCamera.h">
+      <Filter>Header Files\Point/Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Point/Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloud.h">
+      <Filter>Header Files\Point/Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudGenerator.h">
+      <Filter>Header Files\Point/Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudRecorder.h">
+      <Filter>Header Files\Point/Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudInterface.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
